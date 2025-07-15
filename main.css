@@ -83,3 +83,18 @@ body{
 .weather{
   display: none;
 }
+.error{
+  text-align: right;
+  margin-top: 10px;
+  font-size: 25px;
+  position: relative;
+  display: none;
+  margin-bottom: 50px;
+}
+.error p{
+  position: absolute;
+  left: 70%;
+  background-color: rgb(186, 159, 104);
+  padding: 20px;
+  border-radius: 8px;
+}
